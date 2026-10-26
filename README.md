@@ -6,20 +6,22 @@ The goal is to monitor system resources, visualize metrics, and learn how monito
 
 ###Stack
 
-Docker & Docker Compose
-Prometheus
-Grafana
-Node Exporter
-GitHub Actions
+* Docker & Docker Compose
+* Prometheus
+* Grafana
+* Node Exporter
+* GitHub Actions
+
 ⸻
 
 ###What I Want to Monitor
 
-CPU usage
-Memory usage
-Disk space
-Network traffic
-System uptime
+* CPU usage
+* Memory usage
+* Disk space
+* Network traffic
+* System uptime
+
 ⸻
 
 ##Project Status
@@ -32,7 +34,7 @@ Currently setting up the monitoring environment on macOS using Docker Desktop.
 
 ###Goals
 
-Configure Prometheus for metrics collection
-Build Grafana dashboards
-Set up alerts
-Automate basic checks with GitHub Actions
+* Configure Prometheus for metrics collection
+* Build Grafana dashboards
+* Set up alerts
+* Automate basic checks with GitHub Actions
