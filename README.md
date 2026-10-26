@@ -1,10 +1,10 @@
-#Linux Server Monitoring
+# Linux Server Monitoring
 
-##A simple server monitoring project built with Prometheus and Grafana.
+## A simple server monitoring project built with Prometheus and Grafana.
 
 The goal is to monitor system resources, visualize metrics, and learn how monitoring works in a real DevOps environment.
 
-###Stack
+### Stack
 
 * Docker & Docker Compose
 * Prometheus
@@ -14,7 +14,7 @@ The goal is to monitor system resources, visualize metrics, and learn how monito
 
 ⸻
 
-###What I Want to Monitor
+### What I Want to Monitor
 
 * CPU usage
 * Memory usage
@@ -24,15 +24,15 @@ The goal is to monitor system resources, visualize metrics, and learn how monito
 
 ⸻
 
-##Project Status
+## Project Status
 
-#####In development
+##### In development
 
 Currently setting up the monitoring environment on macOS using Docker Desktop.
 
 ⸻
 
-###Goals
+### Goals
 
 * Configure Prometheus for metrics collection
 * Build Grafana dashboards
