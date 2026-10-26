@@ -49,11 +49,15 @@ docker compose ps
 #### Local endpoints
 
 Service	URL
-Prometheus	http://localhost:9090
-Prometheus Targets	http://localhost:9090/targets
-Grafana	http://localhost:3000
-Node Exporter	http://localhost:9100/metrics
-Blackbox Exporter	http://localhost:9115
+Prometheus - http://localhost:9090
+
+Prometheus Targets	- http://localhost:9090/targets
+
+Grafana -	http://localhost:3000
+
+Node Exporter	- http://localhost:9100/metrics
+
+Blackbox Exporter -	http://localhost:9115
 
 I’m using this project to get hands-on experience with Docker, Prometheus, Grafana, PromQL, exporters, and basic alerting.
 
