@@ -31,7 +31,18 @@ services:
     container_name: blackbox_exporter
     ports:
       - "9115:9115"
-    restart: unless-stopped   
+    restart: unless-stopped 
+  cadvisor:
+    image: gcr.io/cadvisor/cadvisor:latest
+    container_name: cadvisor
+    ports:
+      - "8080:8080"
+    volumes:
+      - /var/run:/var/run:ro
+      - /sys:/sys:ro
+      - /var/lib/docker/:/var/lib/docker:ro
+      - /dev/disk:/dev/disk:ro
+    restart: unless-stopped  
 volumes:
   prometheus_data:
   grafana_data:
